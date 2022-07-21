@@ -1,21 +1,18 @@
-STILL IN PROGRESS 
-
 //Callissa McNicholas
-import java.util.Scanner;
-import java.util.ArrayList; 
+
+import java.util.Scanner; 
 
 public class Input 
-{
-	
+{ 
+	static int scount, pcount, sqcount, mcount, sancount; 
 	static Scanner scan = new Scanner(System.in);
-
-
+	
 	//This explains to the user what is expected while taking the quiz. It asks the user
 	//seven questions of which the pick a number for as an answer. The question's answers are tied 
 	//to certain characters. 1 - Spongebob, 2 - Patrick, 3 - Squidward, 4 - Mr. Krabs, 5 - Sandy. 
 	public static void askQuestions()
 		{
-	
+		
 			System.out.println("Hello! Ready to find out what Sponge Bob character you are more like? \n" 
 					+ "Let's start with getting to know you a little bit first. What is your name?");
 			String name = scan.next(); 
@@ -54,12 +51,23 @@ public class Input
 			{
 				System.out.println("Error. Please enter a different number."); 
 				answer = scan.nextInt(); 
-			}
-			if(answer > 5 || answer < 1)
-			{
-				System.out.println("Error. Please refresh and try again");
-				System.exit(answer);
-			}
+			}	
+			
+			if(answer == 1)
+				scount += 1;  
+			
+			else if(answer == 2)
+				pcount += 1; 
+			
+			else if(answer == 3)
+				sqcount += 1;
+			
+			else if(answer == 4)
+				mcount += 1; 
+			
+			else if(answer == 5)
+				sancount += 1;  
+			
 			
 			System.out.println("What does your dream house look like? \n 1 One shaped like a pineapple, of course! "
 					+ "\n 2 Somewhere dark, like under a rock. \n 3 Something architecturally unique \n 4 A house shaped"
@@ -72,11 +80,23 @@ public class Input
 					System.out.println("Error. Please enter a different number."); 
 					answer = scan.nextInt(); 
 				}
-			if(answer > 5 || answer < 1)
-				{
-					System.out.println("Error. Please refresh and try again");
-					System.exit(answer);
-				}
+			
+			if(answer == 1)
+				scount += 1;  
+			
+			else if(answer == 2)
+				pcount += 1; 
+			
+			else if(answer == 3)
+				sqcount += 1;
+			
+			else if(answer == 4)
+				mcount += 1; 
+			
+			else if(answer == 5)
+				sancount += 1;  
+			
+			
 			
 			System.out.println("What makes you the happiest? \n 1 Working my dream job! \n 2 Eating, relaxing, watching TV, "
 					+ "you know just relaxing \n 3 Playing my instrument in peace away from others \n 4 Lots and lots and "
@@ -88,11 +108,23 @@ public class Input
 					System.out.println("Error. Please enter a different number."); 
 					answer = scan.nextInt(); 
 				}
-			if(answer > 5 || answer < 1)
-				{
-					System.out.println("Error. Please refresh and try again");
-					System.exit(answer);
-				}
+			
+			
+			if(answer == 1)
+				scount += 1;  
+			
+			else if(answer == 2)
+				pcount += 1; 
+			
+			else if(answer == 3)
+				sqcount += 1;
+			
+			else if(answer == 4)
+				mcount += 1; 
+			
+			else if(answer == 5)
+				sancount += 1;  
+			
 			
 			System.out.println("What is your favorite kind of music? \n 1 Anything upbeat, like pop music! \n 2 I'll listen "
 					+ "to whatever \n 3 Classical music \n 4 Techno \n 5 Country \n");
@@ -103,11 +135,22 @@ public class Input
 					System.out.println("Error. Please enter a different number."); 
 					answer = scan.nextInt(); 
 				}
-			if(answer > 5 || answer < 1)
-				{
-					System.out.println("Error. Please refresh and try again");
-					System.exit(answer);
-				}
+			
+			if(answer == 1)
+				scount += 1;  
+			
+			else if(answer == 2)
+				pcount += 1; 
+			
+			else if(answer == 3)
+				sqcount += 1;
+			
+			else if(answer == 4)
+				mcount += 1; 
+			
+			else if(answer == 5)
+				sancount += 1;   
+			
 			
 			System.out.println("What would you have for a pet? \n 1 Cat \n 2 Rock \n 3 Pets are gross, none! \n "
 					+ "4 Dog \n 5 A reptile \n"); 
@@ -118,11 +161,22 @@ public class Input
 					System.out.println("Error. Please enter a different number."); 
 					answer = scan.nextInt(); 
 				}
-			if(answer > 5 || answer < 1)
-				{
-					System.out.println("Error. Please refresh and try again");
-					System.exit(answer);
-				}
+			
+			if(answer == 1)
+				scount++;  
+			
+			else if(answer == 2)
+				pcount += 1; 
+			
+			else if(answer == 3)
+				sqcount += 1;
+			
+			else if(answer == 4)
+				mcount += 1; 
+			
+			else if(answer == 5)
+				sancount += 1;  
+			
 			
 			System.out.println("What is your favorite color? \n 1 Yellow \n 2 Pink \n 3 Gray \n 4 Red \n 5 Green \n");
 			answer = scan.nextInt(); 
@@ -132,11 +186,22 @@ public class Input
 					System.out.println("Error. Please enter a different number."); 
 					answer = scan.nextInt(); 
 				}
-			if(answer > 5 || answer < 1)
-				{
-					System.out.println("Error. Please refresh and try again");
-					System.exit(answer);
-				}
+			
+			if(answer == 1)
+				scount += 1;  
+			
+			else if(answer == 2)
+				pcount += 1; 
+			
+			else if(answer == 3)
+				sqcount += 1;
+			
+			else if(answer == 4)
+				mcount += 1; 
+			
+			else if(answer == 5)
+				sancount += 1;  
+			
 			
 			System.out.println("What is your favorite food to get when you go out to eat? \n 1 Krabby Patty "
 					+ "\n 2 Chicken tenders and fries \n 3 Filet Mignon \n 4 I do not go out to eat and waste "
@@ -148,13 +213,37 @@ public class Input
 					System.out.println("Error. Please enter a different number."); 
 					answer = scan.nextInt(); 
 				}
-			if(answer > 5 || answer < 1)
-				{
-					System.out.println("Error. Please refresh and try again");
-					System.exit(answer);
-				}
+			
+			if(answer == 1)
+				scount += 1;  
+			
+			else if(answer == 2)
+				pcount += 1; 
+			
+			else if(answer == 3)
+				sqcount += 1;
+			
+			else if(answer == 4)
+				mcount += 1; 
+			
+			else if(answer == 5)
+				sancount += 1;  
 			
 		}
 	
+	public static void results()
+	{
+		float spongebob = (scount*100)/7; 
+		float patrick = (pcount*100)/7; 
+		float squidward = (sqcount*100)/7; 
+		float mrKrabs = (mcount*100)/7; 
+		float sandy = (sancount*100)/7; 
+		
+		System.out.printf("You are " +spongebob+ " percent like SpongeBob \n");
+		System.out.printf("You are " +patrick+ " percent like Patrick \n");
+		System.out.printf("You are " +squidward+ " percent like Squidward \n");
+		System.out.printf("You are " +mrKrabs+ " percent like Mr. Krabs \n");
+		System.out.printf("You are " +sandy+ " percent like Sandy \n");
+	}
 	
 }
