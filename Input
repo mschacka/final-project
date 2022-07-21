@@ -14,7 +14,7 @@ public class Input
 		{
 		
 			System.out.println("Hello! Ready to find out what Sponge Bob character you are more like? \n" 
-					+ "Let's start with getting to know you a little bit first. What is your name?");
+					+ "Let's start with getting to know you a little bit first. What is your first name?");
 			String name = scan.next(); 
 	
 			System.out.println("Nice to meet you " +name+ ". Before we start the quiz let's go over some things. \n"
@@ -231,6 +231,7 @@ public class Input
 			
 		}
 	
+	//Calculates the percentage the user is for each character based on their answers to the quiz. 
 	public static void results()
 	{
 		float spongebob = (scount*100)/7; 
