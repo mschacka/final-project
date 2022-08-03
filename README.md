@@ -14,8 +14,8 @@ There are four source files for this project. These include: Input, Output, Arra
 
 The purpose of the Input class is to ask the user for their name, tell them briefly about the quiz, ask them all the questions for the quiz, and then calculate the percentage of how much the user is like each character based on their reponses. 
 
-The purpose of the Output is 
-
+The purpose of the Output is to inform the user about their results of which character they most resemble and what percentage they are of that character  
+based on their responses to each question. This gives the user a better idea of how alike they are to the character that they were matched to.
 
 The purpose of the Array is
 
