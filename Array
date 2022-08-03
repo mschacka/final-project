@@ -1,0 +1,35 @@
+package proj;
+
+//Armando Bracco
+
+import java.util.Arrays;
+
+// 1-Spongebob
+// 2-Patrick
+// 3-Squidward
+// 4-Mr. Krabs
+// 5-Sandy
+public class Array {
+ int[] array = {0, 0, 0, 0, 0}; 
+ 
+ array[0] = proj.Input.results(spongebob);
+ array[1] = proj.Input.results(patrick);
+ array[2] = proj.Input.results(squidward);
+ array[3] = proj.Input.results(mrKrabs);
+ array[4] = proj.Input.results(sandy);
+ 
+ 	for (int element: array) {
+ 		int n = 0;
+ 	}
+ 		//if (n > 4);
+ 		//break;
+ 		if (n < 5);
+ 			num = System.out.println(array[n]);
+	 		percent = (num*100)/7;
+	 		array[n] = percent;
+	 		n = n + 1;
+	 		
+	 	break;
+
+	 System.out.prinln(array[0][1][2][3][4]);
+}}
