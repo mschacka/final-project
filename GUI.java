@@ -124,7 +124,7 @@ public class GUI {
                JOptionPane.PLAIN_MESSAGE,
                null,            
                null, 
-               "Dance"
+               1
             );
             if(result != null && result.length() > 0){
                int number = Integer.parseInt(result); //like this
@@ -158,7 +158,7 @@ public class GUI {
                JOptionPane.PLAIN_MESSAGE,
                null,            
                null, 
-               "Dance"
+               1
             );
             if(result != null && result.length() > 0){
                int number = Integer.parseInt(result); //like this
@@ -192,7 +192,7 @@ public class GUI {
                JOptionPane.PLAIN_MESSAGE,
                null,            
                null, 
-               "Dance"
+               1
             );
             if(result != null && result.length() > 0){
                int number = Integer.parseInt(result); //like this
@@ -226,7 +226,7 @@ public class GUI {
                JOptionPane.PLAIN_MESSAGE,
                null,            
                null, 
-               "Dance"
+               1
             );
             if(result != null && result.length() > 0){
                int number = Integer.parseInt(result); //like this
@@ -260,7 +260,7 @@ public class GUI {
                JOptionPane.PLAIN_MESSAGE,
                null,            
                null, 
-               "Dance"
+               1
             );
             if(result != null && result.length() > 0){
                int number = Integer.parseInt(result); //like this
@@ -294,7 +294,7 @@ public class GUI {
                JOptionPane.PLAIN_MESSAGE,
                null,            
                null, 
-               "Dance"
+               1
             );
             if(result != null && result.length() > 0){
                int number = Integer.parseInt(result); //like this
