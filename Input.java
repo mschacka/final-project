@@ -229,22 +229,5 @@ public class Input
 			else if(answer == 5)
 				sancount += 1;  
 			
-		}
+		}}
 	
-	//Calculates the percentage the user is for each character based on their answers to the quiz. 
-	public static void results()
-	{
-		float spongebob = (scount*100)/7; 
-		float patrick = (pcount*100)/7; 
-		float squidward = (sqcount*100)/7; 
-		float mrKrabs = (mcount*100)/7; 
-		float sandy = (sancount*100)/7; 
-		
-		System.out.printf("You are " +spongebob+ " percent like SpongeBob \n");
-		System.out.printf("You are " +patrick+ " percent like Patrick \n");
-		System.out.printf("You are " +squidward+ " percent like Squidward \n");
-		System.out.printf("You are " +mrKrabs+ " percent like Mr. Krabs \n");
-		System.out.printf("You are " +sandy+ " percent like Sandy \n");
-	}
-	
-}
