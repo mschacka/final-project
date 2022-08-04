@@ -25,14 +25,6 @@ public class GUI {
       int[] answers = new int[5];   
 
       createUI(frame, answers);
-      createUIFirstQuestion(frame);
-      createUISecondQuestion(frame);
-      createUIThirdQuestion(frame);
-      createUIFourthQuestion(frame);
-      createUIFifthQuestion(frame);
-      createUISixthQuestion(frame);
-      createUISeventhQuestion(frame);
-      createUIGenerateResults(frame);
 
       frame.setSize(860, 1000);      
       frame.setLocationRelativeTo(null);  
@@ -60,6 +52,13 @@ public class GUI {
             );
             if(result != null && result.length() > 0){
                label.setText("Your name is: " + result);
+                createUIFirstQuestion(frame);
+                createUISecondQuestion(frame);
+                createUIThirdQuestion(frame);
+                createUIFourthQuestion(frame);
+                createUIFifthQuestion(frame);
+                createUISixthQuestion(frame);
+                createUISeventhQuestion(frame);
             }else {
                label.setText("Your name is: " + result);
             }
@@ -90,7 +89,7 @@ public class GUI {
                JOptionPane.PLAIN_MESSAGE,
                null,            
                null, 
-               1
+               "1"
             );
             if(result != null && result != ""){
                int number = Integer.parseInt(result); //like this
@@ -124,7 +123,7 @@ public class GUI {
                JOptionPane.PLAIN_MESSAGE,
                null,            
                null, 
-               1
+               "1"
             );
             if(result != null && result.length() > 0){
                int number = Integer.parseInt(result); //like this
@@ -158,7 +157,7 @@ public class GUI {
                JOptionPane.PLAIN_MESSAGE,
                null,            
                null, 
-               1
+               "1"
             );
             if(result != null && result.length() > 0){
                int number = Integer.parseInt(result); //like this
@@ -192,7 +191,7 @@ public class GUI {
                JOptionPane.PLAIN_MESSAGE,
                null,            
                null, 
-               1
+               "1"
             );
             if(result != null && result.length() > 0){
                int number = Integer.parseInt(result); //like this
@@ -226,7 +225,7 @@ public class GUI {
                JOptionPane.PLAIN_MESSAGE,
                null,            
                null, 
-               1
+               "1"
             );
             if(result != null && result.length() > 0){
                int number = Integer.parseInt(result); //like this
@@ -260,7 +259,7 @@ public class GUI {
                JOptionPane.PLAIN_MESSAGE,
                null,            
                null, 
-               1
+               "1"
             );
             if(result != null && result.length() > 0){
                int number = Integer.parseInt(result); //like this
@@ -294,12 +293,14 @@ public class GUI {
                JOptionPane.PLAIN_MESSAGE,
                null,            
                null, 
-               1
+               "1"
             );
             if(result != null && result.length() > 0){
                int number = Integer.parseInt(result); //like this
                label.setText("you answered: " + result); //like this 
                Input2.handleAnswers(number);// like this
+               createUIGenerateResults(frame);
+
             }else {
                label.setText("you answered: " + result);
             }
