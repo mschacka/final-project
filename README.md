@@ -19,7 +19,7 @@ The purpose of the Output is to inform the user about their results of which cha
 The purpose of the Array is
 
 
-The purpose of the Character classes is 
+The purpose of the testFile is to input "fake" test results and test the convertToPercentages and output functions.
 
 
 The interface functionality 
