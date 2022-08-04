@@ -1,3 +1,54 @@
 //Brett Gregory
 
-//Output
+import java.util.Scanner;
+
+public class Output {
+	
+	public static Scanner scan;
+
+	public static void main(String[] args) 
+	{
+		Input.askQuestions();
+		Input.results();
+	}
+	
+	// Explains how the results are found and asks if the user is ready to see their results
+	public static void answers()
+	{
+		System.out.println("This quiz has taken all of your answers into account \n"
+				+ "to determine what charachacter you most resemble along with \n"
+				+ "what percentage you are like them, are you ready to see your results? ");
+		System.out.println("\n 1 I'm ready! I'm ready! \n 2 No this is Patrick.");
+		
+		Scanner scan = new Scanner(System.in);
+		
+		int ready = scan.nextInt();
+		
+		if (ready == 1)
+		{
+			System.out.println("Okay, here they are:");
+		}
+		
+		if (ready > 2)
+		{
+			System.out.println("ERROR: Please enter a valid number.");
+		}
+		
+		else
+		{
+			System.out.println("I hope you enjoyed taking the quiz, Goodbye!");
+			System.exit(ready);
+	
+		}
+		scan.close();
+	}
+
+	//Tells user which character they matched up to and what percentage of they character they are
+	public static void results()
+	{
+		System.out.println("Based on your answers, it was determined that you most resemble \n"
+				+ "+charname+! You were calculated to be +charpercent+% like +charname+. \n"
+				+ "Thank you for taking the quiz!");
+	}
+}
+
