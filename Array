@@ -6,15 +6,15 @@ public class Array {
  
  public static void getInputs(int[] quizAns) {
 	 
-	 quizAns[0] = proj.Input.scount;
-	 quizAns[1] = proj.Input.pcount;
-	 quizAns[2] = proj.Input.sqcount;
-	 quizAns[3] = proj.Input.mcount;
-	 quizAns[4] = proj.Input.sancount;
+	 quizAns[0] = Input.scount;
+	 quizAns[1] = Input.pcount;
+	 quizAns[2] = Input.sqcount;
+	 quizAns[3] = Input.mcount;
+	 quizAns[4] = Input.sancount;
  }
  
  
- public static void convertToPercentage(int[] quizAns) {
+ public static void convertToPercentages(int[] quizAns) {
 	for(int i = 0; i < 5; i++) {
 		int num = quizAns[i];
 		quizAns[i] = num*100/7;
