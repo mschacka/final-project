@@ -1,5 +1,3 @@
-package proj;
-
 //Armando Bracco
 
 public class Array {
