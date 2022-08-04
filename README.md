@@ -16,10 +16,10 @@ The purpose of the Input class is to ask the user for their name, tell them brie
 
 The purpose of the Output is to inform the user about their results of which character they most resemble and what percentage they are of that character based on their responses to each question. This gives the user a better idea of how alike they are to the character that they were matched to.
 
-The purpose of the Array is
+The purpose of the Array is to collect the data from input function. The array takes that data then converts the numbers to percentages before handing it off to the next function.
 
 
 The purpose of the testFile is to input "fake" test results and test the convertToPercentages and output functions.
 
 
-The interface functionality 
+The interface functionality adds design to the project and helps improve it overall visually for the user.
