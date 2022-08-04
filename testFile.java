@@ -1,5 +1,5 @@
 //Madelyn Schackart
-
+import java.util.Arrays;
 public class testFile {
     
     public static void main(String[] args) {     
@@ -22,7 +22,7 @@ public class testFile {
         
         Arrays.sort(quizOne);
         for(quizAns a : quizOne)
-            p.output();
+            a.output();
     }
     
 }
